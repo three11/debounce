@@ -19,7 +19,7 @@ yarn add @three11/debounce
 First, import the module:
 
 ```
-import '@three11/debounce';
+import { debounce } from '@three11/debounce';
 ```
 
 Then use it to postpone a function's execution:
