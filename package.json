@@ -1,6 +1,6 @@
 {
   "name": "@three11/debounce",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Debounce multiple function executions",
   "main": "index.js",
   "repository": {
