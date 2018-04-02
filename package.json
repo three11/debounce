@@ -1,8 +1,11 @@
 {
   "name": "@three11/debounce",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Debounce multiple function executions",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "babel src -d dist"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/three11/debounce.git"
@@ -35,5 +38,11 @@
   "bugs": {
     "url": "https://github.com/three11/debounce/issues"
   },
-  "homepage": "https://github.com/three11/debounce#readme"
+  "homepage": "https://github.com/three11/debounce#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.0.0-beta.42",
+    "@babel/core": "^7.0.0-beta.42",
+    "@babel/preset-env": "^7.0.0-beta.42",
+    "@babel/preset-stage-2": "^7.0.0-beta.42"
+  }
 }
