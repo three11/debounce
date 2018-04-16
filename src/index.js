@@ -1,4 +1,4 @@
-export const debounce = (func, wait, immediate) => {
+const debounce = (func, wait, immediate) => {
 	let timeout;
 
 	wait = wait ? wait : 15;
@@ -24,3 +24,5 @@ export const debounce = (func, wait, immediate) => {
 		}
 	};
 };
+
+export default debounce;
