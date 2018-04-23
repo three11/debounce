@@ -32,9 +32,9 @@ debounce(yourAwesomeFn());
 
 `debounce(fn, wait, immediate)` accepts three arguments:
 
-*   `fn` : <Function> - the function to debounce
-*   `wait` : <Number> - miliseconds to wait before running the `fn` again
-*   `immediate` : <Boolean> - whether the function should run immediately
+*   `fn` : the function to debounce
+*   `wait` : miliseconds to wait before running the `fn` again
+*   `immediate` : whether the function should run immediately
 
 ## License
 
