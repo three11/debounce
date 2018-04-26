@@ -1,3 +1,5 @@
+[![npm](https://img.shields.io/npm/dt/@three11/debounce.svg)](https://www.npmjs.com/package/@three11/debounce)
+
 # Debounce
 
 Debounce multiple function executions
