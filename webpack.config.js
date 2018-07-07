@@ -2,9 +2,9 @@ const UnminifiedWebpackPlugin = require('unminified-webpack-plugin');
 
 module.exports = {
 	mode: 'production',
-	entry: './src/index.js',
+	entry: './src/debounce.js',
 	output: {
-		filename: 'index.min.js',
+		filename: 'debounce.min.js',
 		library: 'debounce',
 		libraryTarget: 'umd',
 		libraryExport: 'default'
