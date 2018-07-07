@@ -11,6 +11,9 @@
 [![Analytics](https://ga-beacon.appspot.com/UA-83446952-1/github.com/three11/debounce/README.md)](https://github.com/three11/debounce/)
 [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/three11/debounce/)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/three11/debounce/graphs/commit-activity)
+[![Greenkeeper badge](https://badges.greenkeeper.io/three11/debounce.svg)](https://greenkeeper.io/)
+[![dependencies Status](https://david-dm.org/three11/debounce/status.svg)](https://david-dm.org/three11/debounce)
+[![devDependencies Status](https://david-dm.org/three11/debounce/dev-status.svg)](https://david-dm.org/three11/debounce?type=dev)
 
 [![ForTheBadge built-with-love](https://ForTheBadge.com/images/badges/built-with-love.svg)](https://github.com/three11/)
 
@@ -20,14 +23,30 @@ Debounce multiple function executions
 
 ## Install
 
-```console
+```sh
 npm i @three11/debounce
 ```
 
 or
 
-```console
+```sh
 yarn add @three11/debounce
+```
+
+or
+
+Just download this repository and link the files located in dist folder:
+
+```html
+<script src="path-to-debounce/dist/debounce.min.js"></script>
+```
+
+or
+
+Include it from Unpkg CDN
+
+```html
+<script src="//unpkg.com/@three11/debounce/dist/debounce.min.js"></script>
 ```
 
 ## Usage
@@ -48,9 +67,9 @@ debounce(yourAwesomeFn());
 
 `debounce(fn, wait, immediate)` accepts three arguments:
 
-*   `fn` : the function to debounce
-*   `wait` : miliseconds to wait before running the `fn` again
-*   `immediate` : whether the function should run immediately
+-   `fn` : the function to debounce
+-   `wait` : miliseconds to wait before running the `fn` again
+-   `immediate` : whether the function should run immediately
 
 ## License
 
