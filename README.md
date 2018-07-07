@@ -3,7 +3,7 @@
 [![GitHub release](https://img.shields.io/github/release/three11/debounce.svg)](https://github.com/three11/debounce/releases/latest)
 [![GitHub issues](https://img.shields.io/github/issues/three11/debounce.svg)](https://github.com/three11/debounce/issues)
 [![GitHub last commit](https://img.shields.io/github/last-commit/three11/debounce.svg)](https://github.com/three11/debounce/commits/master)
-[![Github file size](https://img.shields.io/github/size/three11/debounce/dist/index.min.js.svg)](https://github.com/three11/debounce/)
+[![Github file size](https://img.shields.io/github/size/three11/debounce/dist/debounce.min.js.svg)](https://github.com/three11/debounce/)
 [![Build Status](https://travis-ci.org/three11/debounce.svg?branch=master)](https://travis-ci.org/three11/debounce)
 [![npm](https://img.shields.io/npm/dt/@three11/debounce.svg)](https://www.npmjs.com/package/@three11/debounce)
 [![npm](https://img.shields.io/npm/v/@three11/debounce.svg)](https://www.npmjs.com/package/@three11/debounce)
