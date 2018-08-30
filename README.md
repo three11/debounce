@@ -7,8 +7,6 @@
 [![npm](https://img.shields.io/npm/v/@three11/debounce.svg)](https://www.npmjs.com/package/@three11/debounce)
 [![Analytics](https://ga-beacon.appspot.com/UA-83446952-1/github.com/three11/debounce/README.md)](https://github.com/three11/debounce/)
 [![Greenkeeper badge](https://badges.greenkeeper.io/three11/debounce.svg)](https://greenkeeper.io/)
-[![dependencies Status](https://david-dm.org/three11/debounce/status.svg)](https://david-dm.org/three11/debounce)
-[![devDependencies Status](https://david-dm.org/three11/debounce/dev-status.svg)](https://david-dm.org/three11/debounce?type=dev)
 
 # Debounce
 
