@@ -1,8 +1,8 @@
 {
   "name": "@three11/debounce",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "Debounce multiple function executions",
-  "main": "dist/debounce.js",
+  "main": "dist/debounce.min.js",
   "scripts": {
     "build": "rollup -c"
   },
