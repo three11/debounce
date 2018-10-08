@@ -4,9 +4,7 @@
   "description": "Debounce multiple function executions",
   "main": "dist/debounce.js",
   "scripts": {
-    "dist": "babel src/debounce.js --out-file dist/debounce.js",
-    "minify": "babel src/debounce.js --out-file dist/debounce.min.js --presets minify,@babel/env",
-    "build": "npm run dist && npm run minify"
+    "build": "rollup -c"
   },
   "repository": {
     "type": "git",
@@ -44,17 +42,9 @@
   "devDependencies": {
     "@babel/cli": "7.1.2",
     "@babel/core": "7.1.2",
-    "@babel/plugin-proposal-class-properties": "7.1.0",
-    "@babel/plugin-proposal-decorators": "7.1.2",
-    "@babel/plugin-proposal-export-namespace-from": "7.0.0",
-    "@babel/plugin-proposal-function-sent": "7.1.0",
-    "@babel/plugin-proposal-json-strings": "7.0.0",
-    "@babel/plugin-proposal-numeric-separator": "7.0.0",
-    "@babel/plugin-proposal-throw-expressions": "7.0.0",
-    "@babel/plugin-syntax-dynamic-import": "7.0.0",
-    "@babel/plugin-syntax-import-meta": "7.0.0",
     "@babel/preset-env": "7.1.0",
-    "babel-loader": "8.0.4",
-    "babel-minify": "0.5.0"
+    "rollup": "^0.66.4",
+    "rollup-plugin-babel": "^4.0.3",
+    "rollup-plugin-uglify": "^6.0.0"
   }
 }
