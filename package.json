@@ -1,50 +1,50 @@
 {
-  "name": "@three11/debounce",
-  "version": "0.6.0",
-  "description": "Debounce multiple function executions",
-  "main": "dist/debounce.min.js",
-  "scripts": {
-    "build": "rollup -c"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/three11/debounce.git"
-  },
-  "keywords": [
-    "Debounce",
-    "Function",
-    "Wait",
-    "JavaScript",
-    "ES2017"
-  ],
-  "authors": [
-    {
-      "name": "Three 11 Ltd",
-      "email": "hello@three-11.com",
-      "role": "Developer"
-    },
-    {
-      "name": "Alexander Panayotov",
-      "email": "alexander.panayotov@gmail.com",
-      "role": "Developer"
-    },
-    {
-      "name": "Atanas Atanasov",
-      "email": "scriptex.bg@gmail.com",
-      "role": "Developer"
-    }
-  ],
-  "license": "GPL-3.0",
-  "bugs": {
-    "url": "https://github.com/three11/debounce/issues"
-  },
-  "homepage": "https://github.com/three11/debounce#readme",
-  "devDependencies": {
-    "@babel/cli": "7.2.3",
-    "@babel/core": "7.2.2",
-    "@babel/preset-env": "7.2.3",
-    "rollup": "1.1.0",
-    "rollup-plugin-babel": "4.3.0",
-    "rollup-plugin-uglify": "6.0.1"
-  }
+	"name": "@three11/debounce",
+	"version": "0.7.0",
+	"description": "Debounce multiple function executions",
+	"main": "dist/debounce.min.js",
+	"scripts": {
+		"build": "rollup -c"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/three11/debounce.git"
+	},
+	"keywords": [
+		"Debounce",
+		"Function",
+		"Wait",
+		"JavaScript",
+		"ES2017"
+	],
+	"authors": [
+		{
+			"name": "Three 11 Ltd",
+			"email": "hello@three-11.com",
+			"role": "Developer"
+		},
+		{
+			"name": "Alexander Panayotov",
+			"email": "alexander.panayotov@gmail.com",
+			"role": "Developer"
+		},
+		{
+			"name": "Atanas Atanasov",
+			"email": "scriptex.bg@gmail.com",
+			"role": "Developer"
+		}
+	],
+	"license": "GPL-3.0",
+	"bugs": {
+		"url": "https://github.com/three11/debounce/issues"
+	},
+	"homepage": "https://github.com/three11/debounce#readme",
+	"devDependencies": {
+		"@babel/cli": "7.2.3",
+		"@babel/core": "7.2.2",
+		"@babel/preset-env": "7.2.3",
+		"rollup": "1.1.0",
+		"rollup-plugin-babel": "4.3.0",
+		"rollup-plugin-uglify": "6.0.1"
+	}
 }
