@@ -43,7 +43,7 @@
 		"@babel/cli": "7.11.5",
 		"@babel/core": "7.11.5",
 		"@babel/preset-env": "7.11.5",
-		"rollup": "2.26.8",
+		"rollup": "2.26.9",
 		"rollup-plugin-babel": "4.4.0",
 		"rollup-plugin-uglify": "6.0.4"
 	}
