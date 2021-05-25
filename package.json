@@ -1,6 +1,6 @@
 {
 	"name": "@three11/debounce",
-	"version": "0.7.0",
+	"version": "1.0.0",
 	"description": "Debounce multiple function executions",
 	"main": "dist/debounce.min.js",
 	"scripts": {
@@ -43,8 +43,8 @@
 		"@babel/cli": "7.14.3",
 		"@babel/core": "7.14.3",
 		"@babel/preset-env": "7.14.2",
-		"rollup": "2.48.0",
+		"rollup": "2.49.0",
 		"rollup-plugin-babel": "4.4.0",
-		"rollup-plugin-uglify": "6.0.4"
+		"rollup-plugin-terser": "7.0.2"
 	}
 }
