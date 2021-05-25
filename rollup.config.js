@@ -1,5 +1,5 @@
 import babel from 'rollup-plugin-babel';
-import { uglify } from 'rollup-plugin-uglify';
+import { terser } from 'rollup-plugin-terser';
 
 export default {
 	input: 'src/debounce.js',
@@ -12,10 +12,8 @@ export default {
 		babel({
 			exclude: 'node_modules/**',
 			babelrc: false,
-			presets: [
-				['@babel/env', { 'modules': false }]
-			]
+			presets: [['@babel/env', { modules: false }]]
 		}),
-		uglify()
+		terser()
 	]
 };
