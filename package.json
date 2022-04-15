@@ -43,7 +43,7 @@
 		"@babel/cli": "7.17.6",
 		"@babel/core": "7.17.9",
 		"@babel/preset-env": "7.16.11",
-		"rollup": "2.70.1",
+		"rollup": "2.70.2",
 		"rollup-plugin-babel": "4.4.0",
 		"rollup-plugin-terser": "7.0.2"
 	}
