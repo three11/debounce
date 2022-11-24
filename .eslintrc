@@ -1,0 +1,17 @@
+{
+	"env": {
+		"node": true,
+		"browser": true
+	},
+	"extends": ["prettier", "plugin:@typescript-eslint/recommended"],
+	"parser": "@typescript-eslint/parser",
+	"parserOptions": {
+		"project": "tsconfig.json",
+		"sourceType": "module"
+	},
+	"plugins": ["@typescript-eslint"],
+	"ignorePatterns": ["*.js", "*.mjs"],
+	"rules": {
+		"@typescript-eslint/no-this-alias": "off"
+	}
+}

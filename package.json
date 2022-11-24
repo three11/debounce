@@ -1,22 +1,17 @@
 {
 	"name": "@three11/debounce",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"description": "Debounce multiple function executions",
-	"main": "dist/debounce.min.js",
-	"scripts": {
-		"build": "rollup -c"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/three11/debounce.git"
-	},
 	"keywords": [
 		"Debounce",
-		"Function",
-		"Wait",
-		"JavaScript",
-		"ES2017"
+		"Function delay",
+		"Function wait"
 	],
+	"homepage": "https://github.com/three11/debounce#readme",
+	"bugs": {
+		"url": "https://github.com/three11/debounce/issues"
+	},
+	"license": "GPL-3.0",
 	"authors": [
 		{
 			"name": "Three 11 Ltd",
@@ -34,17 +29,27 @@
 			"role": "Developer"
 		}
 	],
-	"license": "GPL-3.0",
-	"bugs": {
-		"url": "https://github.com/three11/debounce/issues"
+	"main": "dist/debounce.js",
+	"types": "dist/debounce.d.ts",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/three11/debounce.git"
 	},
-	"homepage": "https://github.com/three11/debounce#readme",
+	"scripts": {
+		"lint": "eslint 'src/**/*.ts'",
+		"copy": "cp -r dist demo",
+		"clean": "rm -rf dist && rm -rf demo/dist",
+		"build": "yarn clean && rollup -c && yarn copy"
+	},
+	"dependencies": {},
 	"devDependencies": {
-		"@babel/cli": "7.19.3",
-		"@babel/core": "7.20.2",
-		"@babel/preset-env": "7.20.2",
-		"rollup": "2.79.1",
-		"rollup-plugin-babel": "4.4.0",
-		"rollup-plugin-terser": "7.0.2"
+		"@rollup/plugin-commonjs": "23.0.2",
+		"@rollup/plugin-typescript": "9.0.2",
+		"@typescript-eslint/eslint-plugin": "5.44.0",
+		"@typescript-eslint/parser": "5.44.0",
+		"eslint": "8.28.0",
+		"eslint-config-prettier": "8.5.0",
+		"rollup": "3.4.0",
+		"typescript": "4.9.3"
 	}
 }
