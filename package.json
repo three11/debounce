@@ -37,9 +37,7 @@
 	},
 	"scripts": {
 		"lint": "eslint 'src/**/*.ts'",
-		"copy": "cp -r dist demo",
-		"clean": "rm -rf dist && rm -rf demo/dist",
-		"build": "yarn clean && rollup -c && yarn copy"
+		"build": "rollup -c"
 	},
 	"dependencies": {},
 	"devDependencies": {
