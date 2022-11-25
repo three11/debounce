@@ -1,11 +1,15 @@
-export const debounce = function <T extends (...args: unknown[]) => void>(callback: T, wait = 15, immediate = false) {
+export const debounce = function <T extends (...args: unknown[]) => void>(
+	fn: T,
+	delay = 15,
+	isImmediate = false
+): <C>(this: C, ...rest: Parameters<T>) => void {
 	let timeout: ReturnType<typeof setTimeout> | null;
 
-	return function <C>(this: C, ...args: Parameters<typeof callback>) {
+	return function <C>(this: C, ...args: Parameters<T>) {
 		const context = this;
 
-		if (immediate && !timeout) {
-			callback.apply(context, args);
+		if (isImmediate && !timeout) {
+			fn.apply(context, args);
 		}
 
 		if (typeof timeout === 'number') {
@@ -15,10 +19,10 @@ export const debounce = function <T extends (...args: unknown[]) => void>(callba
 		timeout = setTimeout(() => {
 			timeout = null;
 
-			if (!immediate) {
-				callback.apply(context, args);
+			if (!isImmediate) {
+				fn.apply(context, args);
 			}
-		}, wait);
+		}, delay);
 	};
 };
 

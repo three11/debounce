@@ -37,17 +37,22 @@
 	},
 	"scripts": {
 		"lint": "eslint 'src/**/*.ts'",
+		"test": "yarn build && node --experimental-specifier-resolution=node --loader ts-node/esm tests/index.mts",
 		"build": "rollup -c"
 	},
 	"dependencies": {},
 	"devDependencies": {
 		"@rollup/plugin-commonjs": "23.0.2",
 		"@rollup/plugin-typescript": "9.0.2",
+		"@types/node": "18.11.9",
+		"@types/tape": "4.13.2",
 		"@typescript-eslint/eslint-plugin": "5.44.0",
 		"@typescript-eslint/parser": "5.44.0",
 		"eslint": "8.28.0",
 		"eslint-config-prettier": "8.5.0",
 		"rollup": "3.4.0",
+		"tape": "5.6.1",
+		"ts-node": "10.9.1",
 		"typescript": "4.9.3"
 	}
 }

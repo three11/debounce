@@ -10,5 +10,10 @@ export default {
 		exports: 'named',
 		sourcemap: true
 	},
-	plugins: [typescript(), commonjs()]
+	plugins: [
+		typescript({
+			tsconfig: './tsconfig-compile.json'
+		}),
+		commonjs()
+	]
 };
