@@ -42,7 +42,7 @@
 	},
 	"dependencies": {},
 	"devDependencies": {
-		"@rollup/plugin-commonjs": "24.0.1",
+		"@rollup/plugin-commonjs": "24.1.0",
 		"@rollup/plugin-typescript": "11.1.0",
 		"@types/node": "18.15.11",
 		"@types/tape": "4.13.4",
