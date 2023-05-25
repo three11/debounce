@@ -44,7 +44,7 @@
 	"devDependencies": {
 		"@rollup/plugin-commonjs": "25.0.0",
 		"@rollup/plugin-typescript": "11.1.1",
-		"@types/node": "18.16.14",
+		"@types/node": "18.16.15",
 		"@types/tape": "5.6.0",
 		"@typescript-eslint/eslint-plugin": "5.59.7",
 		"@typescript-eslint/parser": "5.59.7",
