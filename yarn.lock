@@ -442,7 +442,7 @@ debug@^4.1.1, debug@^4.3.2, debug@^4.3.4:
   dependencies:
     ms "2.1.2"
 
-deep-equal@^2.2.1:
+deep-equal@^2.2.2:
   version "2.2.2"
   resolved "https://registry.yarnpkg.com/deep-equal/-/deep-equal-2.2.2.tgz#9b2635da569a13ba8e1cc159c2f744071b115daa"
   integrity sha512-xjVyBf0w5vH0I42jdAZzOKVldmPgSulmiyPRywoyq7HXC9qdgo17kxJE+rdnif5Tz6+pIrpJI8dCpMNLIGkUiA==
@@ -1552,14 +1552,14 @@ supports-preserve-symlinks-flag@^1.0.0:
   resolved "https://registry.yarnpkg.com/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz#6eda4bd344a3c94aea376d4cc31bc77311039e09"
   integrity sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==
 
-tape@5.6.4:
-  version "5.6.4"
-  resolved "https://registry.yarnpkg.com/tape/-/tape-5.6.4.tgz#c6a7dc0585495e166518cbc07c4d8ccdc1d8ee2a"
-  integrity sha512-D5NkwItdBMAmgmij4qbHGOmxBF9Xo4l3iRDme7KIxZE/K+D0k4ZJLdaGPbQvBF7QVUeFUzEo11j8CZxkrydINA==
+tape@5.6.5:
+  version "5.6.5"
+  resolved "https://registry.yarnpkg.com/tape/-/tape-5.6.5.tgz#a4dd5c6fb035fcee5b89a069cf8e98c6cbf40959"
+  integrity sha512-r6XcLeO3h5rOFpkYWifAjlhSSSXbFSSBF86lhb6J0KAQbY91H1MzOeIWG6TH0iWS52ypwr6fenJgCGQGtL8CxA==
   dependencies:
     array.prototype.every "^1.1.4"
     call-bind "^1.0.2"
-    deep-equal "^2.2.1"
+    deep-equal "^2.2.2"
     defined "^1.0.1"
     dotignore "^0.1.2"
     for-each "^0.3.3"
