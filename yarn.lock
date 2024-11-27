@@ -96,7 +96,7 @@
     "@ljharb/through" "^2.3.13"
     call-bind "^1.0.7"
 
-"@ljharb/through@^2.3.13":
+"@ljharb/through@*", "@ljharb/through@^2.3.13":
   version "2.3.13"
   resolved "https://registry.yarnpkg.com/@ljharb/through/-/through-2.3.13.tgz#b7e4766e0b65aa82e529be945ab078de79874edc"
   integrity sha512-/gKJun8NNiWGZJkGzI/Ragc53cOdcLNdzjLaIa+GEjguQs0ulsurx8WN0jijdK9yPqDvziX995sMRLyLt1uZMQ==
@@ -304,19 +304,12 @@
   resolved "https://registry.yarnpkg.com/@types/semver/-/semver-7.5.0.tgz#591c1ce3a702c45ee15f47a42ade72c2fd78978a"
   integrity sha512-G8hZ6XJiHnuhQKR7ZmysCeJWE08o8T0AXtk5darsCaTVsYZhhgUrq53jizaR2FvsoeCwJhlmwTjkXBY5Pn/ZHw==
 
-"@types/tape@5.6.4":
-  version "5.6.4"
-  resolved "https://registry.yarnpkg.com/@types/tape/-/tape-5.6.4.tgz#efae4202493043457b1900dceb4808c8f04c7d8f"
-  integrity sha512-EmL4fJpZyByNCkupLLcJhneqcnT+rQUG5fWKNCsZyBK1x7nUuDTwwEerc4biEMZgvSK2+FXr775aLeXhKXK4Yw==
+"@types/tape@5.6.5":
+  version "5.6.5"
+  resolved "https://registry.yarnpkg.com/@types/tape/-/tape-5.6.5.tgz#61b23416b1517ece0eb46420a9f2787379fa42f9"
+  integrity sha512-/Eer3ugx8wLoJ4FFD2QzAO2RjuAys60WzvnVhOREHg+EGazbae9N095pLPGhDRErBkngl8YjZ1hApQ79UHraaQ==
   dependencies:
-    "@types/node" "*"
-    "@types/through" "*"
-
-"@types/through@*":
-  version "0.0.30"
-  resolved "https://registry.yarnpkg.com/@types/through/-/through-0.0.30.tgz#e0e42ce77e897bd6aead6f6ea62aeb135b8a3895"
-  integrity sha512-FvnCJljyxhPM3gkRgWmxmDZyAQSiBQQWLI0A0VFL0K7W1oRUrPJSqNO0NvTnLkBcotdlp3lKvaT0JrnyRDkzOg==
-  dependencies:
+    "@ljharb/through" "*"
     "@types/node" "*"
 
 "@typescript-eslint/eslint-plugin@6.21.0":
