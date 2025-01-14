@@ -309,10 +309,10 @@
   resolved "https://registry.yarnpkg.com/@types/semver/-/semver-7.5.0.tgz#591c1ce3a702c45ee15f47a42ade72c2fd78978a"
   integrity sha512-G8hZ6XJiHnuhQKR7ZmysCeJWE08o8T0AXtk5darsCaTVsYZhhgUrq53jizaR2FvsoeCwJhlmwTjkXBY5Pn/ZHw==
 
-"@types/tape@5.8.0":
-  version "5.8.0"
-  resolved "https://registry.yarnpkg.com/@types/tape/-/tape-5.8.0.tgz#42bd112d81f53f79548d36f838431678065f58f2"
-  integrity sha512-UK1ChHa29Udnlcrv5MPjm6OvFFntZZyt+fXGsJ1CdvcYI8xfzxLJwGmELCe9xKrQJ6JD52QCSSZrirZFO9S+lQ==
+"@types/tape@5.8.1":
+  version "5.8.1"
+  resolved "https://registry.yarnpkg.com/@types/tape/-/tape-5.8.1.tgz#9c9540ee1d426a4512332e11ddf40100b6d6e8ef"
+  integrity sha512-vRjK+E1c+I4WRDSXcYfgepPjz2Knh+gulU3359LrR9H2KM8AyiMbNmX7W5aMlw7JFoXMpVOhq3bEIm78qakGbQ==
   dependencies:
     "@ljharb/through" "*"
     "@types/node" "*"
