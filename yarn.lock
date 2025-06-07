@@ -302,12 +302,12 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-20.4.1.tgz#a6033a8718653c50ac4962977e14d0f984d9527d"
   integrity sha512-JIzsAvJeA/5iY6Y/OxZbv1lUcc8dNSE77lb2gnBH+/PJ3lFR1Ccvgwl5JWnHAkNHcRsT0TbpVOsiMKZ1F/yyJg==
 
-"@types/node@20.17.58":
-  version "20.17.58"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.17.58.tgz#26d8dcdd87237f2b3cf9aabfe7da712b1e851948"
-  integrity sha512-UvxetCgGwZ9HmsgGZ2tpStt6CiFU1bu28ftHWpDyfthsCt7OHXas0C7j0VgO3gBq8UHKI785wXmtcQVhLekcRg==
+"@types/node@20.19.0":
+  version "20.19.0"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.19.0.tgz#7006b097b15dfea06695c3bbdba98b268797f65b"
+  integrity sha512-hfrc+1tud1xcdVTABC2JiomZJEklMcXYNTVtZLAeqTVWD+qL5jkHKT+1lOtqDdGxt+mB53DTtiz673vfjU8D1Q==
   dependencies:
-    undici-types "~6.19.2"
+    undici-types "~6.21.0"
 
 "@types/semver@^7.5.0":
   version "7.5.0"
@@ -2378,10 +2378,10 @@ unbox-primitive@^1.0.2:
     has-symbols "^1.0.3"
     which-boxed-primitive "^1.0.2"
 
-undici-types@~6.19.2:
-  version "6.19.6"
-  resolved "https://registry.yarnpkg.com/undici-types/-/undici-types-6.19.6.tgz#e218c3df0987f4c0e0008ca00d6b6472d9b89b36"
-  integrity sha512-e/vggGopEfTKSvj4ihnOLTsqhrKRN3LeO6qSN/GxohhuRv8qH9bNQ4B8W7e/vFL+0XTnmHPB4/kegunZGA4Org==
+undici-types@~6.21.0:
+  version "6.21.0"
+  resolved "https://registry.yarnpkg.com/undici-types/-/undici-types-6.21.0.tgz#691d00af3909be93a7faa13be61b3a5b50ef12cb"
+  integrity sha512-iwDZqg0QAGrg9Rav5H4n0M64c3mkR59cJ6wQp+7C4nI0gsmExaedaYLNO44eT4AtBBwjbTiGPMlt2Md0T9H9JQ==
 
 uri-js@^4.2.2:
   version "4.4.1"
